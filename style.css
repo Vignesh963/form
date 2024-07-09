@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqKt5wHtSe1EXoKbCYKTkbT7b6T4RAd7m-w&s);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    background-color:lightblue ;
+    border-radius: 5px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 350px;
+    width: 40%;
+    margin-left: 20%;
+    font-weight: bold;
+} 
+input[type=text],input[type=email],input[type=password],select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid violet;
+}
+
+button{
+    background-color: violet;
+    color: white;
+    border: 1px solidb black;
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    display: block;
+    float: left;
+    font-size: large;
+}
+
+input[type=radio], input[type=checkbox]{
+    margin: 8px;
+}
